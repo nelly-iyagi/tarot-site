@@ -1,0 +1,14 @@
+{
+  "yes": {
+    "result": "YES",
+    "meaning": "思うままに進もう"
+  },
+  "maybe": {
+    "result": "Maybe",
+    "meaning": "白黒つけなくてもいい"
+  },
+  "no": {
+    "result": "NO",
+    "meaning": "留まることも大事"
+  }
+}

@@ -1,0 +1,1157 @@
+[
+  {
+    "id": 0,
+    "name": "0.愚者",
+    "english": "The Fool",
+    "image": "images/0_the_fool.webp",
+    "arcana": "major",
+    "suit": "null",
+    "yesnoType": "maybe",
+    "upright": {
+      "keywords": ["自由", "始まり", "冒険"],
+      "short": "好奇心に従う",
+      "detail": "先入観や固定観念に縛られず、新しい旅立ちや可能性の始まりを示すカード。素直な目で物事を見つめ、直感や好奇心に従い進むことで未来が開ける。"
+    },
+    "reversed": {
+      "keywords": ["無謀", "無計画", "未熟"],
+      "short": "成りゆきまかせ",
+      "detail": "準備不足や無計画すぎるなど、軽率な行動や現実逃避を意味する。目の前の状況やリスク、トラブルの元を見極めることが肝要かも。"
+    }
+  },
+  {
+    "id": 1,
+    "name": "1.魔術師",
+    "english": "The Magician",
+    "image": "images/1_the_magician.webp",
+    "arcana": "major",
+    "suit": "null",
+    "keywords": ["創造", "意志", "実行力", "優柔不断", "不器用", "能力不足"],
+    "yesnoType": "yes",
+    "upright": {
+      "short": "才能を発揮する",
+      "detail": "自らの才能や創造力を活かし現実を切り開く力を象徴する。準備万端を示すカードなので、行動を始めれば素晴らしい結果を得られそう。"
+    },
+    "reversed": {
+      "short": "能力の誤用",
+      "detail": "自信過剰や自己不信により力を出し切れていない。物事を始めるための準備が整っていないかも。能力や覚悟は足りているかどうか、見直しが必要。"
+    }
+  },
+  {
+    "id": 2,
+    "name": "2.女教皇",
+    "english": "The High Priestess",
+    "image": "images/2.the_high_priestess.webp",
+    "arcana": "major",
+    "suit": "null",
+    "keywords": ["直感", "隠された事実", "知性", "潔癖", "無神経", "情緒不安定 "],
+    "yesnoType": "maybe",
+    "upright": {
+      "short": "内なる声を聴く",
+      "detail": "直観や洞察力の高まりを示す。内面に目を向けて問題の深層や本質に気づく時期。自分の心の声や知識を信頼し、焦らず静かに待つことが重要。"
+    },
+    "reversed": {
+      "short": "暴走する直感",
+      "detail": "誤った情報や思い込みによる誤解や不安に惑わされて判断が鈍っている可能性。隠された秘密が明るみに出る暗示。冷静さを取り戻す必要がある。"
+    }
+  },
+  {
+    "id": 3,
+    "name": "3.女帝",
+    "english": "The Empress",
+    "image": "images/3.the_empress.webp",
+    "arcana": "major",
+    "suit": "null",
+    "keywords": ["豊かさ", "母権", "実り", "嫉妬", "愛情の押し付け", "過保護"],
+    "yesnoType": "yes",
+    "upright": {
+      "short": "豊穣と愛と満足",
+      "detail": "愛情や豊かさに満たされた状態を示す。努力や愛情が身を結び、物理的な豊かさが手に入る。自然な流れに身を任せると良い結果が得られる。"
+    },
+    "reversed": {
+      "short": "過剰な愛・過干渉",
+      "detail": "相手を思ってしていることがその人の自由や幸福を脅かしているかも。自己中心的になり愛情の均衡が崩れている状態。自分を満たすことが必要。"
+    }
+  },
+  {
+    "id": 4,
+    "name": "4.皇帝",
+    "english": "The Emperor",
+    "image": "images/4_the_emperor.webp",
+    "arcana": "major",
+    "suit": "null",
+    "keywords": ["支配", "安定", "責任感", "ワンマン", "衝突", "強引"],
+    "yesnoType": "yes",
+    "upright": {
+      "short": "安定的な統率",
+      "detail": "リーダーシップを発揮できる。堅実な計画と統率により物事を安定させ、輝かしい成果を出す力があることを表すカード。現実的な判断が鍵。"
+    },
+    "reversed": {
+      "short": "引くに引けない",
+      "detail": "男性性や権力を振りかざし、周りが見えていないかも。ルールに縛られ支配的態度が隠せなかったりプライドの高さから信頼を失いそう。柔軟さが必要。"
+    }
+  },
+  {
+    "id": 5,
+    "name": "5.教皇",
+    "english": "The Hierophant",
+    "image": "images/5_the_hierophant.webp",
+    "arcana": "major",
+    "suit": "null",
+    "keywords": ["道徳的", "指導", "信念", "建前", "虚栄", "無慈悲"],
+    "yesnoType": "maybe",
+    "upright": {
+      "short": "協力体制",
+      "detail": "信頼できる先輩や指導者に悩みを話してみるとよい助言が得られそう。人間関係を大事にし、美徳や秩序を守る協調的なふるまいが求められる時期。"
+    },
+    "reversed": {
+      "short": "独りよがり・不信",
+      "detail": "伝統や形式を無批判に守りすぎて融通が効かず、頑固さが全面に出ているかも。相手の気持ちや状況を聞いてみたり、価値観の見直しが必要な時期。"
+    }
+  },
+{
+  "id": 6,
+  "name": "6.恋人",
+  "english": "The Lovers",
+  "image": "images/6_the_lovers.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["正しい選択", "愛", "調和", "気まぐれ", "違和感", "衝動的"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "愛と選択",
+    "detail": "どうしようもなくときめくような重要な選択を迫られる。感覚や感受性を大切に、前向きな決断をすることで心が満たされるような幸せを得られそう。"
+  },
+  "reversed": {
+    "short": "すれ違い・選択ミス",
+    "detail": "誘惑に負けたり、衝動的な行動をして関係の不調和を引き起こしたり、誤った選択を意味する。周囲の意見に流されず本当に大切なものを見極めて。"
+  }
+},
+{
+  "id": 7,
+  "name": "7.戦車",
+  "english": "The Chariot",
+  "image": "images/7_the_chariot.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["チャンス", "勝利", "開拓心", "自分勝手", "敗北", "劣勢的"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "勝利のために進む",
+    "detail": "内面からにじむ強い意志と主体的な行動によって目標や理想を達成する。課題解決し一皮むける必要はあるが、迷わず進むことで成功をつかめる。"
+  },
+  "reversed": {
+    "short": "制御不能",
+    "detail": "気持ちが空回りしてコントロール不足になったり、行動を起こせず挫折する可能性を示す。焦りからイライラしがち。落ち着いて次のチャンスを待って。"
+  }
+},
+{
+  "id": 8,
+  "name": "8.力",
+  "english": "Strength",
+  "image": "images/8_strength.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["忍耐", "内なる力", "誠実", "無気力", "揺らぐ信念", "依存"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "愛による克服",
+    "detail": "自らを制御し、他人を受け容れる優しさや忍耐によって根気強く困難を乗り越える力を象徴する。包容力で感情をうまく扱うことが鍵となる。"
+  },
+  "reversed": {
+    "short": "甘え・自信喪失",
+    "detail": "すぐに投げ出してしまうなど、持続力の欠如や感情の乱れを意味する。不安や恐れなどネガティブな気持ちに向き合うために休養をとることも大事。"
+  }
+},
+{
+  "id": 9,
+  "name": "9.隠者",
+  "english": "The Hermit",
+  "image": "images/9_the_hermit.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["自己探求", "内省", "孤独", "単独行動", "排他的", "孤立"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "内省と探求",
+    "detail": "一人の時間を通じてじっくりと内省し、深く自己探求する時期。より高いステージに上がるためには、あえて孤独を求め内面に目を向けることも重要。"
+  },
+  "reversed": {
+    "short": "偏屈・閉鎖的",
+    "detail": "自分の考えに固執しすぎるあまり、人を疑ったり偏見で見下してしまい、孤立したりトラブルを引き起こす暗示。外界とのバランスを取る必要がある。"
+  }
+},
+{
+  "id": 10,
+  "name": "10.運命の輪",
+  "english": "Wheel of Fortune",
+  "image": "images/10_wheel_of_fortune.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["転換点", "運命的な変化", "幸運", "トラブル", "不幸な出来事", "すれ違い"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "ターニングポイント",
+    "detail": "目には見えない大いなる力によって物事が動いたり、運命の流れが大きく変わる時期。好機を見逃さず変化を受け入れることで成功につながる。"
+  },
+  "reversed": {
+    "short": "翻弄される運命",
+    "detail": "今ではない。運気の停滞やタイミングのズレを示すカード。目標達成までにはまだ時間が必要なので、焦らず淡々と流れを見極めてチャンスを待とう。"
+  }
+},
+{
+  "id": 11,
+  "name": "11.正義",
+  "english": "Justice",
+  "image": "images/11_justice.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["公平な判断", "均衡", "客観的", "不当な扱い", "矛盾" , "公私混同" ],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "適切な判断",
+    "detail": "公平で客観的な判断が求められる時期かも。優れたバランス感覚で物事を判断出来そうだけど、迷ったら一般的な規則や常識を元に決めてみて。"
+  },
+  "reversed": {
+    "short": "報われぬ判断",
+    "detail": "感情や偏見のままに、あいまいで不正な判断を下すことを示す。思い込みやえこひいきがないか、優柔不断な態度でいないか見直す必要がある。"
+  }
+},
+{
+  "id": 12,
+  "name": "12.吊るされた男",
+  "english": "The Hanged Man",
+  "image": "images/12_the_hanged_man.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["自己犠牲", "献身", "視点の転換", "自己否定", "無駄な努力", "徒労" ],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "試練のとき",
+    "detail": "身動きが取れことを受け入れ、小休止するくらいの気持ちで取り組むと吉。新しい視点からアイデアを得る時期。無理に動かず待つことが重要。"
+  },
+  "reversed": {
+    "short": "やせ我慢・徒労",
+    "detail": "無意味な我慢や報われない無駄な努力、精神の成長が停滞してしまうことを意味する。周囲の言葉に耳を傾け別角度から物事を考えてみる必要がある。"
+  }
+},
+{
+  "id": 13,
+  "name": "13.死神",
+  "english": "Death",
+  "image": "images/13_death.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["過去との決別", "区切り", "再生", "諦めきれない", "堂々巡り", "未練" ],
+  "yesnoType": "no",
+  "upright": {
+    "short": "強制終了＆再起動",
+    "detail": "信じていたもの、当然だと思い込んでいたことが終わり、区切りがついて新しく始まることを暗示する。つらくとも手放すことで未来が開ける。"
+  },
+  "reversed": {
+    "short": "未練・自縄自縛",
+    "detail": "避けられない変化への抵抗、眼前の状況を受け容れられず執着していることを示す。妥協して楽な道を選んだり、中途半端では望む未来は得られない。"
+  }
+},
+{
+  "id": 14,
+  "name": "14.節制",
+  "english": "Temperance",
+  "image": "images/14_temperance.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["調和", "バランス", "柔軟性", "傲慢", "生活の乱れ", "悲観的" ],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "ゆるやかな前進",
+    "detail": "周囲とのよい化学反応が起き心身ともにバランスが取れ、どんな物事にも応用力を発揮して柔軟で平和的な対応が出来そう。自然な流れに身を委ねて。"
+  },
+  "reversed": {
+    "short": "バランスが崩れる",
+    "detail": "周囲とうまく折り合いがつかなくなり、強引に進めようとして信用を失うなど極端な状態を意味する。感情のコントロールを取り戻し中庸を意識して。"
+  }
+},
+{
+  "id": 15,
+  "name": "15.悪魔",
+  "english": "The Devil",
+  "image": "images/15_the_devil.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["束縛", "下心", "盲目的", "清算", "打ち勝つ", "手放す"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "快楽に堕ちる",
+    "detail": "誘惑や衝動に抗えず、負の感情に縛られて抜け出せないでいるかも。欲望任せで無秩序になっている現実を見つめ直し、健全に立ち直る必要がある。"
+  },
+  "reversed": {
+    "short": "悪循環を断ち切る",
+    "detail": "自らを縛っていると思い込んでいた鎖からの解放を暗示する。望まない関係や堕落した生活から脱却する絶好のチャンス。自由への一歩を踏み出せる。"
+  }
+},
+{
+  "id": 16,
+  "name": "16.塔",
+  "english": "The Tower",
+  "image": "images/16_the_tower.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["関係の崩壊", "ハプニング", "失望", "前提の崩壊", "ひらめき", "刷新"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "予期せぬ破滅",
+    "detail": "守ってきたものや積み上げてきたものが突然崩壊し、ショックに打ちひしがれてしまう暗示。古いやり方や考えを大胆に見直す時期が来たことを示す。"
+  },
+  "reversed": {
+    "short": "革新の光",
+    "detail": "価値観や前提がじわじわと崩れていくように感じる出来事が続く。問題の先送りや諦めは混乱が継続するだけ。いずれ直面し清算する必要がある。"
+  }
+},
+{
+  "id": 17,
+  "name": "17.星",
+  "english": "The Star",
+  "image": "images/17_the_star.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["成就", "夢の実現", "道しるべ", "高望み", "夢の放棄", "自己否定"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "宝石を見つける",
+    "detail": "思い描く夢や目標は自らの才能や潜在能力を発見し、育てればかならず叶う。好きなこと、得意なことにエネルギーを注ぎ、自分自身を磨き続けて。"
+  },
+  "reversed": {
+    "short": "くすんだ宝石",
+    "detail": "目標を見失っている状態。理想が高すぎるか、考えすぎて行動できていないのかも。自らの能力を見つめ直し、実現可能な夢へシフトしてみて。"
+  }
+},
+{
+  "id": 18,
+  "name": "18.月",
+  "english": "The Moon",
+  "image": "images/18_the_moon.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["不安", "トラウマ", "隠し事", "明確", "現実", "本音"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "先行きの不安",
+    "detail": "移ろいゆく月の形のように状況が不透明で疑心暗鬼になりやすい時期。直感は重要だが嘘やごまかしにも注意が必要。今すぐ結論を出すのは避けて。"
+  },
+  "reversed": {
+    "short": "不安の正体に気づく",
+    "detail": "あいまいだった先行きに光が差し込み、混乱が晴れて真実が見えてくる兆し。不安の正体が誤解や悪い想像だと分かるなど、迷いから解放されてゆく。"
+  }
+},
+{
+  "id": 19,
+  "name": "19.太陽",
+  "english": "The Sun",
+  "image": "images/19_the_sun.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["成功", "喜び", "無邪気", "中止", "楽しめない", "虚しさ"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "約束された未来 ",
+    "detail": "成功や実現、純粋な喜びが待っていることを意味するカード。これまでの成果が注目され自信や出世につながる暗示。新しい挑戦も強運で突破できそう。"
+  },
+  "reversed": {
+    "short": "落陽",
+    "detail": "自らのエネルギーを過信しすぎて息切れを起こし、期待外れ＆中途半端な結果に終わりそう。成功に固執しすぎて周囲とのトラブルや挫折の暗示も。"
+  }
+},
+{
+  "id": 20,
+  "name": "20.審判",
+  "english": "Judgement",
+  "image": "images/20_judgement.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["敗者復活", "打開の時", "決断", "再起不能", "悪い報せ", "機を逃す"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "目覚めのラッパ",
+    "detail": "もう終わった、諦めたと思っていた物事に改めて取り組めるタイミング。これまでの行いや知識をフル活用すれば、恐れずに決断できるはず。"
+  },
+  "reversed": {
+    "short": "リスタート失敗",
+    "detail": "過去の失敗や傷にとらわれ、復活のチャンスが巡ってきても足踏み状態。これまでずっと避けてきた物事と向き合い、決着をつけるタイミングかも。"
+  }
+},
+{
+  "id": 21,
+  "name": "21.世界",
+  "english": "The World",
+  "image": "images/21_the_world.webp",
+  "arcana": "major",
+  "suit": "null",
+  "keywords": ["完成", "理想通り", "絶好調", "未完成", "調和の崩壊", "不完全燃焼"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "トゥルーエンド",
+    "detail": "障害や困難を乗り越え、今までの努力が実を結び、物事が思い通りに完成する最高の状態。心からの満足と幸福感を得られそう。"
+  },
+  "reversed": {
+    "short": "思ってたんと違う",
+    "detail": "あと一歩で完成なのに、最後のピースが見つからない状態。自分自身、もう限界が見えていて…。諦めるのか、もう少し頑張るのか。後悔のない選択を。"
+  }
+},
+{
+  "id": "ace_of_cups",
+  "name": "カップのエース",
+  "english": "ACE of CUPS",
+  "image": "images/ace_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["愛情", "始まり", "癒し", "停滞", "感情不足", "枯渇"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "愛の始まり・満たし",
+    "detail": "心が満たされる出来事や新しい愛情の始まりを示す時期。素直な気持ちを大切にすることで良い流れが広がる。"
+  },
+  "reversed": {
+    "short": "感情不足・停滞",
+    "detail": "気持ちがうまく流れず、満足感を得にくい状態。無理に動かず、自分の内面を整える時間が必要な時期。"
+  }
+},
+{
+  "id": "2_of_cups",
+  "name": "カップの2",
+  "english": "2 of CUPS",
+  "image": "images/two_of_cup.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["調和", "結びつき", "恋愛", "不和", "すれ違い", "断絶"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "相思相愛・調和",
+    "detail": "心が通じ合う関係や信頼の深まりを示す時期。素直な対話が良好な関係をさらに強くしてくれる。"
+  },
+  "reversed": {
+    "short": "不一致・すれ違い",
+    "detail": "気持ちのズレや誤解が生じやすい状態。相手の立場を理解し、丁寧なコミュニケーションが必要。"
+  }
+},
+{
+  "id": "3_of_cups",
+  "name": "カップの3",
+  "english": "3 of CUPS",
+  "image": "images/three_of_cup.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["喜び", "祝福", "友情", "浪費", "過剰", "軽率"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "祝福・楽しみ",
+    "detail": "仲間との喜びや楽しい出来事が増える時期。周囲との交流を大切にすることで運気も上向く。"
+  },
+  "reversed": {
+    "short": "浮かれすぎ・浪費",
+    "detail": "楽しさに流されて節度を失いやすい状態。羽目を外しすぎず、バランスを意識することが重要。"
+  }
+},
+{
+  "id": "4_of_cups",
+  "name": "カップの4",
+  "english": "4 of CUPS",
+  "image": "images/four_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["停滞", "倦怠", "内省", "無関心", "拒絶", "機会損失"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "倦怠・内省",
+    "detail": "現状に満足できず気持ちが停滞しやすい時期。焦らず内面を見つめることで新たな気づきが得られる。"
+  },
+  "reversed": {
+    "short": "機会回復・前進",
+    "detail": "停滞していた状況から抜け出す兆し。新しいチャンスに目を向けることで流れが変わっていく。"
+  }
+},
+{
+  "id": "5_of_cups",
+  "name": "カップの5",
+  "english": "5 of CUPS",
+  "image": "images/five_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["失望", "悲しみ", "後悔", "回復", "希望", "再起"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "喪失・落胆",
+    "detail": "期待外れや失望を感じやすい時期。失ったものにとらわれすぎず、残っている可能性にも目を向けて。"
+  },
+  "reversed": {
+    "short": "立ち直り・希望",
+    "detail": "悲しみから少しずつ回復し、前向きな気持ちが戻る兆し。新しい一歩を踏み出す準備が整う。"
+  }
+},
+{
+  "id": "6_of_cups",
+  "name": "カップの6",
+  "english": "6 of CUPS",
+  "image": "images/six_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["懐古", "純粋", "再会", "依存", "過去執着", "停滞"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "懐かしさ・再会",
+    "detail": "過去の思い出や人との再会が心を温める時期。純粋な気持ちを大切にすると良い流れが戻る。"
+  },
+  "reversed": {
+    "short": "過去執着・停滞",
+    "detail": "過去にとらわれすぎて前に進みにくい状態。今の自分に目を向けることで未来が開けてくる。"
+  }
+},
+{
+  "id": "7_of_cups",
+  "name": "カップの7",
+  "english": "7 of CUPS",
+  "image": "images/seven_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["幻想", "選択", "迷い", "混乱", "錯覚", "優柔不断"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "幻想・選択迷い",
+    "detail": "多くの可能性がある一方で判断に迷いやすい時期。現実的な視点を持つことで正しい選択ができる。"
+  },
+  "reversed": {
+    "short": "現実直視・決断",
+    "detail": "迷いが晴れ、現実的な判断ができるようになる兆し。優先順位を明確にすることで道が定まる。"
+  }
+},
+{
+  "id": "8_of_cups",
+  "name": "カップの8",
+  "english": "8 of CUPS",
+  "image": "images/eight_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["離別", "転機", "決断", "未練", "停滞", "逃避"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "離別・前進",
+    "detail": "今の状況に区切りをつけ、新しい道へ進む時期。勇気ある決断がより良い未来につながる。"
+  },
+  "reversed": {
+    "short": "未練・停滞",
+    "detail": "手放すべきものに執着し、前に進めない状態。気持ちを整理し決断することが求められる。"
+  }
+},
+{
+  "id": "9_of_cups",
+  "name": "カップの9",
+  "english": "9 of CUPS",
+  "image": "images/nine_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["満足", "願望成就", "幸福", "過信", "慢心", "怠慢"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "満足・願望成就",
+    "detail": "願いが叶い、心から満足できる状況が訪れる時期。素直に喜びを受け取ることでさらに運気が高まる。"
+  },
+  "reversed": {
+    "short": "不満・過信",
+    "detail": "満たされているのに満足できない状態や慢心に注意。感謝の気持ちを持つことで流れが整う。"
+  }
+},
+{
+  "id": "10_of_cups",
+  "name": "カップの10",
+  "english": "10 of CUPS",
+  "image": "images/ten_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["幸福", "家族", "調和", "不和", "崩壊", "理想崩れ"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "幸福・調和",
+    "detail": "家庭や人間関係において大きな幸福と調和が訪れる時期。安心できる環境が心を満たしてくれる。"
+  },
+  "reversed": {
+    "short": "不和・崩れ",
+    "detail": "理想としていた関係にズレが生じやすい状態。対話を重ねることで関係修復の糸口が見えてくる。"
+  }
+},
+{
+  "id": "page_of_cups",
+  "name": "カップのペイジ",
+  "english": "PAGE of CUPS",
+  "image": "images/page_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["純粋", "感受性", "創造性", "未熟", "空想", "不安定"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "純粋・ひらめき",
+    "detail": "素直な感情や新しいひらめきが生まれる時期。柔らかい発想が思わぬチャンスを引き寄せる。"
+  },
+  "reversed": {
+    "short": "不安定・空想",
+    "detail": "感情に振り回されやすく現実とのズレが生じやすい状態。地に足をつけた行動を意識することが大切。"
+  }
+},
+{
+  "id": "knight_of_cups",
+  "name": "カップのナイト",
+  "english": "KNIGHT of CUPS",
+  "image": "images/knight_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["ロマン", "提案", "優しさ", "気まぐれ", "優柔不断", "逃避"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "ロマン・接近",
+    "detail": "愛情表現や魅力的な提案が増える時期。自分の気持ちに正直になることで良い関係が築ける。"
+  },
+  "reversed": {
+    "short": "曖昧・逃避",
+    "detail": "気持ちが定まらず曖昧な態度になりやすい状態。現実的な判断を持つことでトラブルを防げる。"
+  }
+},
+{
+  "id": "queen_of_cups",
+  "name": "カップのクイーン",
+  "english": "QUEEN of CUPS",
+  "image": "images/queen_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["共感", "包容力", "直感", "依存", "情緒不安", "過干渉"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "共感・包容",
+    "detail": "優しさと共感力で周囲を支えられる時期。相手の気持ちを理解することで信頼関係が深まる。"
+  },
+  "reversed": {
+    "short": "依存・不安定",
+    "detail": "感情が揺れやすく依存的になりやすい状態。自分の軸を整えることで安定を取り戻せる。"
+  }
+},
+{
+  "id": "king_of_cups",
+  "name": "カップのキング",
+  "english": "KING of CUPS",
+  "image": "images/king_of_cups.webp",
+  "arcana": "minor",
+  "suit": "cups",
+  "keywords": ["成熟", "寛容", "安定", "抑圧", "冷淡", "感情隠し"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "成熟・安定",
+    "detail": "感情をコントロールしながら周囲を支えられる時期。落ち着いた対応が信頼と安心感を生む。"
+  },
+  "reversed": {
+    "short": "抑圧・冷淡",
+    "detail": "感情を押し込めすぎて冷たい印象を与えやすい状態。素直な気持ちを表現することが大切。"
+  }
+},
+
+{
+  "id": "ace_of_wands",
+  "name": "ワンドのエース",
+  "english": "ACE of WANDS",
+  "image": "images/ace_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["情熱", "始動", "意欲", "停滞", "空回り", "失速"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "情熱始動・好機",
+    "detail": "新しい挑戦への意欲が高まる好機。思いついたら即行動が吉で、勢いに乗るほど道が開ける。"
+  },
+  "reversed": {
+    "short": "停滞・空回り",
+    "detail": "やる気はあるのに進みにくい状態。焦らず準備を整え、タイミングを見極めることで流れが戻る。"
+  }
+},
+{
+  "id": "2_of_wands",
+  "name": "ワンドの2",
+  "english": "2 of WANDS",
+  "image": "images/two_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["計画", "展望", "選択", "迷い", "停滞", "視野狭窄"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "計画・展望",
+    "detail": "将来の方向性を見定める時期。視野を広く持ち、情報を集めてから決断すると成功に近づく。"
+  },
+  "reversed": {
+    "short": "迷い・停滞",
+    "detail": "選択に迷い、動き出せない状態。視点を変えて選択肢を見直すことで突破口が見えてくる。"
+  }
+},
+{
+  "id": "3_of_wands",
+  "name": "ワンドの3",
+  "english": "3 of WANDS",
+  "image": "images/three_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["拡大", "前進", "発展", "遅延", "停滞", "期待外れ"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "前進・発展",
+    "detail": "これまでの努力が広がりを見せる時期。外の世界に目を向けることでさらに大きな成果が期待できる。"
+  },
+  "reversed": {
+    "short": "遅延・停滞",
+    "detail": "思うように進展せず停滞感を感じやすい状態。焦らず計画を見直すことで次の一手が見えてくる。"
+  }
+},
+{
+  "id": "4_of_wands",
+  "name": "ワンドの4",
+  "english": "4 of WANDS",
+  "image": "images/four_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["安定", "祝福", "達成", "不安定", "遅れ", "不一致"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "安定・祝福",
+    "detail": "努力が実り、安心できる状況に到達する時期。周囲と喜びを分かち合うことで幸福感が増す。"
+  },
+  "reversed": {
+    "short": "不安定・遅れ",
+    "detail": "予定通りに進まず不安定さを感じやすい状態。基盤を整え直すことで安定を取り戻せる。"
+  }
+},
+{
+  "id": "5_of_wands",
+  "name": "ワンドの5",
+  "english": "5 of WANDS",
+  "image": "images/five_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["競争", "衝突", "刺激", "対立激化", "混乱", "不和"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "競争・衝突",
+    "detail": "意見のぶつかり合いが起こりやすい時期。競争を前向きに活かせば成長のチャンスにもなる。"
+  },
+  "reversed": {
+    "short": "混乱・不和",
+    "detail": "対立がこじれて混乱が広がりやすい状態。冷静さを取り戻し、協調を意識することが必要。"
+  }
+},
+{
+  "id": "6_of_wands",
+  "name": "ワンドの6",
+  "english": "6 of WANDS",
+  "image": "images/six_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["成功", "勝利", "評価", "慢心", "過信", "孤立"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "勝利・成功",
+    "detail": "努力が認められ、周囲から評価される時期。自信を持って進むことでさらなる成功を呼び込める。"
+  },
+  "reversed": {
+    "short": "慢心・孤立",
+    "detail": "評価にこだわりすぎて孤立しやすい状態。謙虚さを保つことで良い流れを維持できる。"
+  }
+},
+{
+  "id": "7_of_wands",
+  "name": "ワンドの7",
+  "english": "7 of WANDS",
+  "image": "images/seven_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["防衛", "優位", "挑戦", "劣勢", "圧倒", "防戦"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "防衛・優位",
+    "detail": "周囲からの挑戦を受けつつも優位を保てる時期。自分の立場を守り抜く意志が重要になる。"
+  },
+  "reversed": {
+    "short": "劣勢・防戦",
+    "detail": "圧力に押されやすく不利な状況に陥りやすい状態。無理せず戦略を立て直すことが必要。"
+  }
+},
+{
+  "id": "8_of_wands",
+  "name": "ワンドの8",
+  "english": "8 of WANDS",
+  "image": "images/eight_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["加速", "進展", "連絡", "遅延", "停滞", "混乱"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "加速・進展",
+    "detail": "物事が一気に進み、スピード感のある展開に。連絡やチャンスも増えるため積極的に動くと良い。"
+  },
+  "reversed": {
+    "short": "遅延・混乱",
+    "detail": "予定の遅れや連絡の行き違いが起こりやすい状態。焦らず状況を整理することが大切。"
+  }
+},
+{
+  "id": "9_of_wands",
+  "name": "ワンドの9",
+  "english": "9 of WANDS",
+  "image": "images/nine_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["防御", "忍耐", "警戒", "疲労", "疑念", "消耗"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "警戒・忍耐",
+    "detail": "これまでの経験を活かし慎重に進む時期。最後まで気を抜かず耐えることで乗り越えられる。"
+  },
+  "reversed": {
+    "short": "疲弊・疑念",
+    "detail": "疲れや不信感が強まりやすい状態。無理をせず休息を取り、心身を立て直すことが優先。"
+  }
+},
+{
+  "id": "10_of_wands",
+  "name": "ワンドの10",
+  "english": "10 of WANDS",
+  "image": "images/ten_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["負担", "責任", "重圧", "過負荷", "限界", "疲弊"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "負担・重圧",
+    "detail": "責任や仕事が重くのしかかる時期。抱え込みすぎず、周囲に頼ることで負担を軽減できる。"
+  },
+  "reversed": {
+    "short": "限界・手放し",
+    "detail": "無理を続けた結果、限界が近い状態。不要なものを手放し、負担を減らす決断が必要。"
+  }
+},
+{
+  "id": "page_of_wands",
+  "name": "ワンドのペイジ",
+  "english": "PAGE of WANDS",
+  "image": "images/page_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["好奇心", "挑戦", "探求", "未熟", "衝動", "不安定"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "挑戦・好奇心",
+    "detail": "新しいことに挑戦したくなる時期。好奇心に従って動くことで成長のきっかけをつかめる。"
+  },
+  "reversed": {
+    "short": "未熟・衝動",
+    "detail": "勢い任せで行動しやすい状態。計画性を持つことで失敗を防ぎ、結果を安定させられる。"
+  }
+},
+{
+  "id": "knight_of_wands",
+  "name": "ワンドのナイト",
+  "english": "KNIGHT of WANDS",
+  "image": "images/knight_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["情熱", "行動力", "突進", "短気", "暴走", "無計画"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "情熱・突進",
+    "detail": "強い情熱と行動力で一気に前進できる時期。勢いを活かせば大きな成果につながる。"
+  },
+  "reversed": {
+    "short": "暴走・短気",
+    "detail": "衝動的な行動でトラブルを招きやすい状態。落ち着いて状況を見極めることが重要。"
+  }
+},
+{
+  "id": "queen_of_wands",
+  "name": "ワンドのクイーン",
+  "english": "QUEEN of WANDS",
+  "image": "images/queen_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["魅力", "自信", "情熱", "嫉妬", "不安", "自己否定"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "魅力・自信",
+    "detail": "自信と魅力が高まり、人を惹きつける時期。積極的に行動することでチャンスを引き寄せる。"
+  },
+  "reversed": {
+    "short": "不安・嫉妬",
+    "detail": "自信を失い他人と比較しやすい状態。自分の強みを見直すことで再び輝きを取り戻せる。"
+  }
+},
+{
+  "id": "king_of_wands",
+  "name": "ワンドのキング",
+  "english": "KING of WANDS",
+  "image": "images/king_of_wands.webp",
+  "arcana": "minor",
+  "suit": "wands",
+  "keywords": ["統率", "ビジョン", "情熱", "独断", "支配", "強引"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "統率・ビジョン",
+    "detail": "大きな目標に向かって周囲を導ける時期。情熱とリーダーシップで状況を好転させられる。"
+  },
+  "reversed": {
+    "short": "独断・強引",
+    "detail": "自分の考えを押し通しすぎて反発を招きやすい状態。周囲の意見を取り入れる柔軟さが必要。"
+  }
+},
+
+{
+  "id": "ace_of_pentacles",
+  "name": "ペンタクルのエース",
+  "english": "ACE of PENTACLES",
+  "image": "images/ace_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["機会", "安定", "基盤", "機会損失", "不安定", "遅延"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "好機・安定開始",
+    "detail": "現実的なチャンスや安定の種が訪れる時期。小さな一歩でも着実に進めることで大きな成果につながる。"
+  },
+  "reversed": {
+    "short": "機会損失・遅れ",
+    "detail": "せっかくのチャンスを逃しやすい状態。焦らず足元を見直し、基盤を整えることで流れを取り戻せる。"
+  }
+},
+{
+  "id": "2_of_pentacles",
+  "name": "ペンタクルの2",
+  "english": "2 of PENTACLES",
+  "image": "images/two_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["調整", "柔軟性", "両立", "不安定", "混乱", "優先不明"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "調整・両立",
+    "detail": "複数の物事をバランスよくこなす時期。柔軟な対応を意識することで安定した流れを保てる。"
+  },
+  "reversed": {
+    "short": "混乱・不安定",
+    "detail": "バランスを崩しやすく優先順位が曖昧な状態。一度整理して取捨選択することが求められる。"
+  }
+},
+{
+  "id": "3_of_pentacles",
+  "name": "ペンタクルの3",
+  "english": "3 of PENTACLES",
+  "image": "images/three_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["協力", "技術", "評価", "不協和", "未熟", "連携不足"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "協力・評価",
+    "detail": "周囲との協力によって成果が出やすい時期。技術や努力が認められ、信頼関係が深まる。"
+  },
+  "reversed": {
+    "short": "不協和・未熟",
+    "detail": "連携不足や技術不足が目立ちやすい状態。基礎を見直し、周囲との調整を図ることが必要。"
+  }
+},
+{
+  "id": "4_of_pentacles",
+  "name": "ペンタクルの4",
+  "english": "4 of PENTACLES",
+  "image": "images/four_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["保持", "安定", "蓄積", "執着", "閉鎖", "停滞"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "保持・安定",
+    "detail": "現状を守り安定を維持する時期。堅実な判断が安全につながるが、柔軟さも忘れずに。"
+  },
+  "reversed": {
+    "short": "執着・停滞",
+    "detail": "失うことへの不安から執着が強まりやすい状態。手放すことで新しい流れが生まれる。"
+  }
+},
+{
+  "id": "5_of_pentacles",
+  "name": "ペンタクルの5",
+  "english": "5 of PENTACLES",
+  "image": "images/five_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["困窮", "不安", "孤立", "回復", "支援", "希望"],
+  "yesnoType": "no",
+  "upright": {
+    "short": "困窮・不安",
+    "detail": "経済面や環境面での不安を感じやすい時期。ひとりで抱え込まず、周囲の助けを求めることが重要。"
+  },
+  "reversed": {
+    "short": "回復・支援",
+    "detail": "困難からの回復や支援が得られる兆し。状況は少しずつ改善に向かい、安心感が戻ってくる。"
+  }
+},
+{
+  "id": "6_of_pentacles",
+  "name": "ペンタクルの6",
+  "english": "6 of PENTACLES",
+  "image": "images/six_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["援助", "均衡", "分配", "不公平", "依存", "搾取"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "援助・均衡",
+    "detail": "与えることと受け取ることのバランスが整う時期。公平な関係性が良い流れを生み出す。"
+  },
+  "reversed": {
+    "short": "不公平・依存",
+    "detail": "一方的な関係や依存が生まれやすい状態。対等な関係を意識することが大切。"
+  }
+},
+{
+  "id": "7_of_pentacles",
+  "name": "ペンタクルの7",
+  "english": "7 of PENTACLES",
+  "image": "images/seven_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["評価", "見直し", "成長待ち", "停滞", "焦り", "不満"],
+  "yesnoType": "maybe",
+  "upright": {
+    "short": "評価・見直し",
+    "detail": "これまでの努力を振り返り、成果を見極める時期。焦らず次の一手を考えることで成長につながる。"
+  },
+  "reversed": {
+    "short": "停滞・不満",
+    "detail": "成果が見えにくく不満を感じやすい状態。方向性を見直し、無駄を省くことが必要。"
+  }
+},
+{
+  "id": "8_of_pentacles",
+  "name": "ペンタクルの8",
+  "english": "8 of PENTACLES",
+  "image": "images/eight_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["努力", "鍛錬", "集中", "惰性", "手抜き", "停滞"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "努力・鍛錬",
+    "detail": "地道な努力が確実に実を結ぶ時期。集中して取り組むことでスキルと成果が着実に伸びる。"
+  },
+  "reversed": {
+    "short": "惰性・停滞",
+    "detail": "集中力が続かず惰性で動きやすい状態。目標を再設定することで意欲を取り戻せる。"
+  }
+},
+{
+  "id": "9_of_pentacles",
+  "name": "ペンタクルの9",
+  "english": "9 of PENTACLES",
+  "image": "images/nine_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["自立", "豊かさ", "余裕", "孤立", "浪費", "慢心"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "自立・豊かさ",
+    "detail": "努力の成果が形となり、経済的・精神的な余裕が得られる時期。自分の力で築いた安定を実感できる。"
+  },
+  "reversed": {
+    "short": "浪費・慢心",
+    "detail": "豊かさに甘え無駄遣いや油断が生じやすい状態。節度を保つことで安定を維持できる。"
+  }
+},
+{
+  "id": "10_of_pentacles",
+  "name": "ペンタクルの10",
+  "english": "10 of PENTACLES",
+  "image": "images/ten_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["繁栄", "家族", "安定", "不安定", "崩壊", "継承問題"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "繁栄・安定",
+    "detail": "長期的な安定や繁栄が実現する時期。家族や基盤となる環境が整い、安心感に包まれる。"
+  },
+  "reversed": {
+    "short": "崩れ・不安定",
+    "detail": "基盤となるものが揺らぎやすい状態。長期的な視点で見直しを行うことが重要。"
+  }
+},
+{
+  "id": "page_of_pentacles",
+  "name": "ペンタクルのペイジ",
+  "english": "PAGE of PENTACLES",
+  "image": "images/page_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["学習", "可能性", "計画", "未熟", "怠慢", "現実逃避"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "学習・可能性",
+    "detail": "新しい知識やスキルを学ぶ好機。基礎から積み上げることで将来の安定につながる。"
+  },
+  "reversed": {
+    "short": "怠慢・未熟",
+    "detail": "努力不足や計画性の欠如が目立ちやすい状態。基礎を見直し、着実に取り組むことが必要。"
+  }
+},
+{
+  "id": "knight_of_pentacles",
+  "name": "ペンタクルのナイト",
+  "english": "KNIGHT of PENTACLES",
+  "image": "images/knight_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["堅実", "継続", "責任", "停滞", "鈍化", "柔軟性不足"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "堅実・継続",
+    "detail": "コツコツとした努力が成果につながる時期。焦らず継続することで確実な結果が得られる。"
+  },
+  "reversed": {
+    "short": "停滞・鈍化",
+    "detail": "慎重すぎて動きが遅くなりやすい状態。柔軟な発想を取り入れることで前進できる。"
+  }
+},
+{
+  "id": "queen_of_pentacles",
+  "name": "ペンタクルのクイーン",
+  "english": "QUEEN of PENTACLES",
+  "image": "images/queen_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["現実力", "安定", "世話", "過保護", "依存", "不安"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "安定・現実力",
+    "detail": "生活面や仕事面で安定を築ける時期。現実的な判断と気配りで周囲を支えられる。"
+  },
+  "reversed": {
+    "short": "過保護・依存",
+    "detail": "世話を焼きすぎて依存関係になりやすい状態。自立を促す意識が必要になる。"
+  }
+},
+{
+  "id": "king_of_pentacles",
+  "name": "ペンタクルのキング",
+  "english": "KING of PENTACLES",
+  "image": "images/king_of_pentacles.webp",
+  "arcana": "minor",
+  "suit": "pentacles",
+  "keywords": ["成功", "安定", "実力", "強欲", "固執", "支配"],
+  "yesnoType": "yes",
+  "upright": {
+    "short": "成功・安定",
+    "detail": "現実的な成功と安定を手にできる時期。堅実な判断と経験が大きな成果につながる。"
+  },
+  "reversed": {
+    "short": "強欲・固執",
+    "detail": "利益や所有にこだわりすぎて視野が狭くなりやすい状態。柔軟さを持つことが重要。"
+  }
+}
+]

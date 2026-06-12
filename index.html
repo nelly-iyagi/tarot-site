@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タロット占いミニ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: "Zen Old Mincho",serif; text-align: center; padding: 20px;
+    }
+
+    .label {
+      font-size: 13px;
+      font-family: "Yu Gothic", sans-serif;
+      color: #778899;
+    }
+    .yes {
+      color: #234A87;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    .no {
+      color: #C10E49;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    .maybe {
+      color: #009854;
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 4px;
+    }
+    .tag {
+      display: inline-block;
+      margin-right: 6px;
+      padding: 2px 6px;
+      background: #eee;
+      border-radius: 6px;
+      font-family: "Yu Gothic", sans-serif;
+      font-size: 14px;
+      letter-spacing: 0.07em;
+      margin-top: 7px;
+    }
+    .en {
+      font-size: 0.7em;
+      letter-spacing: 0.07em;
+      color: #778899;
+      font-weight: normal;
+    }
+    .keywords {
+      font-weight: bold;
+      letter-spacing: 0.05em;
+    }
+    button { margin: 10px; padding: 10px 20px; font-family: "Yu Gothic",serif; font-size: 16px; }
+    .card { 
+      border: 1px solid #ccc; 
+      padding: 10px; 
+      margin: 10px; 
+      display: inline-block; 
+      width: 200px; 
+      cursor: pointer; 
+      opacity: 0;
+      transform: translateY(10px);
+      transition: 0.3s;
+    }
+    .card.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    .card:hover .inner {
+      transform: rotate(0deg);
+    }
+    .card-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      border-radius: 8px;
+    }
+    .detail-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 15px auto;
+      border-radius: 10px;
+    }
+    .image-reversed {
+      transform: rotate(180deg);
+    }
+    
+    .cross {
+      display: grid;
+      grid-template-columns: repeat(3, 160px);
+      grid-template-rows: repeat(3, auto);
+      justify-content: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .pos1 { grid-column: 1; grid-row: 2; }
+    .pos2 { grid-column: 3; grid-row: 2; }
+    .pos3 { grid-column: 2; grid-row: 3; }
+    .pos4 { grid-column: 2; grid-row: 1; }
+
+    /* モーダル（詳細表示） */
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow-y: auto; 
+      background: rgba(0,0,0,0.6);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .modal.show {
+    opacity: 1;
+    }
+    .modal-content {
+      background: #ffffff;
+      padding: 20px;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 12px;
+      text-align: left;
+      transform: translateY(20px);
+      transition: transform 0.3s ease;
+    }
+    .modal.show .modal-content {
+      transform: translateY(0);
+    }
+
+    button {
+      background: #aaaab0;
+      border: 1px solid #666c67;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #d3d3d8;
+    }
+
+    .close-btn {
+      margin-top: 10px;
+      padding: 5px 10px;
+      position: sticky;
+      bottom: 3;
+      width: 25%;
+    }
+
+  @media screen and (max-width: 768px) {
+  body {
+    padding: 12px;
+  }
+
+  #result {
+  margin-bottom: 20px;
+}
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 8px auto;
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: none;
+    margin: 8px auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .card-image {
+    max-width: 280px;
+    transition: transform 0.3s ease;
+  }
+
+  .image-reversed {
+    transform: rotate(180deg);
+  }
+
+  .cross {
+    display: grid;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .pos1 { grid-column: 1; grid-row: 2; }
+  .pos2 { grid-column: 3; grid-row: 2; }
+  .pos3 { grid-column: 2; grid-row: 3; }
+  .pos4 { grid-column: 2; grid-row: 1; }
+
+  .label {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .modal {
+    padding: 16px 0;
+  }
+
+  .modal-content {
+    width: 92%;
+    max-width: 320px;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  .detail-image {
+    max-width: 100%;
+  }
+
+  .close-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <h1>タロット占い</h1>
+
+  <div id="result">読み込み中...</div>
+
+  <button onclick="drawCards(1)">ワンオラクル</button>
+  <button onclick="drawCards(3)">スリーカード</button>
+  <button onclick="drawCards(4)">フォーカード</button>
+
+  <script>
+    let cards = [];
+    let yesnoData = {};
+
+   Promise.all([
+    fetch("cards.json").then(res => res.json()),
+    fetch("yesno.json").then(res => res.json())
+    ])
+   .then(([cardsData, yesnoJson]) => {
+    cards = cardsData;
+    yesnoData = yesnoJson;
+
+    document.getElementById("result").innerHTML = "準備OK！ボタンを押してね";
+    })
+    .catch(err => {
+    document.getElementById("result").innerHTML = "JSONの読み込みに失敗したよ";
+    console.error(err);
+    });
+
+    function drawCards(num) {
+      if (cards.length === 0) return;
+
+      const resultDiv = document.getElementById("result");
+      resultDiv.innerHTML = "";
+
+      const shuffled = [...cards].sort(() => Math.random() - 0.5);
+      const selected = shuffled.slice(0, num);
+
+      if (num === 1) {
+        renderCard(selected[0], "結果");
+      }
+
+      if (num === 3) {
+        const labels = ["過去", "現在", "未来"];
+        selected.forEach((card, i) => {
+          renderCard(card, labels[i], i);
+      });
+      }
+
+      if (num === 4) {
+        const labels = ["現状", "相手", "問題", "未来"];
+
+        const container = document.createElement("div");
+        container.className = "cross";
+
+        selected.forEach((card, i) => {
+          const isReversed = Math.random() < 0.5;
+          const meaning = isReversed ? card.reversed.short : card.upright.short;
+
+          const cardDiv = createCardDiv(card, labels[i], meaning, isReversed);
+          cardDiv.classList.add(`pos${i+1}`);
+          container.appendChild(cardDiv);
+
+          // ★これ追加！！
+          setTimeout(() => {
+            cardDiv.classList.add("show");
+          }, i * 200);
+        });
+
+        resultDiv.appendChild(container);
+      }
+    }
+
+    function renderCard(card, label, i = 0) {
+  const resultDiv = document.getElementById("result");
+
+  const isReversed = Math.random() < 0.5;
+  const meaning = isReversed ? card.reversed.short : card.upright.short;
+
+  let yesnoText = "";
+
+  if (label === "結果" && card.yesnoType) {
+    const data = yesnoData[card.yesnoType];
+
+    if (data) {
+    const typeClass = card.yesnoType;
+
+    yesnoText = `
+     <div class="label">
+      <div>YES or NO?</div>
+      <div class="${typeClass}">
+        ${data.result} ${data.meaning}
+      </div>
+    </div>
+    `;
+    }
+  }
+
+  const cardDiv = document.createElement("div");
+  cardDiv.className = `card ${isReversed ? "reversed" : ""}`;
+
+  cardDiv.innerHTML = `
+    <div class="inner">
+    <div class="label">${label}（${isReversed ? "逆位置" : "正位置"}）</div>
+    <img src="${card.image}" alt="${card.name}" class="card-image ${isReversed ? 'image-reversed' : ''}">
+    <h3>${card.name}</h3>
+    ${yesnoText}
+    <p>${meaning}</p>
+    </div>
+  `;
+
+  cardDiv.onclick = () => showDetail(card, isReversed);
+
+  resultDiv.appendChild(cardDiv);
+
+  setTimeout(() => {
+    cardDiv.classList.add("show");
+    }, 100 * i);
+}
+
+    function createCardDiv(card, label, meaning, isReversed) {
+      const cardDiv = document.createElement("div");
+      cardDiv.className = `card ${isReversed ? "reversed" : ""}`;
+
+      cardDiv.innerHTML = `
+        <div class="inner">
+          <div class="label">${label}（${isReversed ? "逆位置" : "正位置"}）</div>
+          <img src="${card.image}" alt="${card.name}" class="card-image ${isReversed ? 'image-reversed' : ''}">
+          <h3>${card.name}</h3>
+          <p>${meaning}</p>
+        </div>
+      `;
+
+      // クリックで詳細表示
+      cardDiv.onclick = () => showDetail(card, isReversed);
+
+      return cardDiv;
+    }
+
+    function showDetail(card, isReversed) {
+      const positionData = isReversed ? card.reversed : card.upright;
+      const detailText = positionData.detail;
+      const keywords = positionData.keywords.map(k => `<span class="tag">${k}</span>`).join(" ");
+      const data = yesnoData[card.yesnoType];
+
+      const modal = document.createElement("div");
+      modal.className = "modal";
+
+      modal.innerHTML = `
+        <div class="modal-content">
+          <h2>${card.name}  <span class="en">${card.english}</span>（${isReversed ? "逆位置" : "正位置"}）</h2>
+          <img src="${card.image}" alt="${card.name}" class="detail-image">
+          <span class="label">Keyword：</span>
+          <span class="keywords">${keywords}</span><br>
+          <span class="label">YesNo：</span>
+          <span class="tag"><span class="keywords">${data.result}</span></span>
+          <p>${detailText}</p>
+          <button class="close-btn">閉じる</button>
+        </div>
+      `;
+
+      modal.querySelector(".close-btn").onclick = () => {
+        modal.classList.remove("show");
+        setTimeout(() => modal.remove(), 300);
+      };
+
+      document.body.appendChild(modal);
+
+      setTimeout(() => {
+        modal.classList.add("show");
+      }, 10); 
+    }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
